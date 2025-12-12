@@ -1,17 +1,17 @@
-# Professional Portfolio Website
+# Cybersecurity Portfolio Website
 
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
+A modern, responsive portfolio focused on cybersecurity work: detection engineering, threat hunting, secure coding, and purple teaming.
 
 ## 🌟 Features
 
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - **Modern UI**: Clean and professional design with smooth animations
-- **Multiple Sections**:
-  - Hero section with social links
-  - About Me with downloadable resume
-  - Featured Projects showcase
-  - Skills & Technologies
-  - Contact form
+- **Focused Sections**:
+  - Hero: cybersecurity positioning and social links
+  - About Me: security background with resume download
+  - Security Projects: detections, hunts, labs, secure tooling
+  - Security Skills & Tools: ATT&CK, SIEM, EDR, AppSec
+  - Contact: reach out for security engagements
 - **Interactive Navigation**: Smooth scrolling with active link highlighting
 - **Optimized Performance**: Fast loading with efficient code
 - **SEO Friendly**: Proper meta tags and semantic HTML
@@ -44,7 +44,7 @@ Portfolio/
 Edit the following in `index.html`:
 
 - **Name**: Replace "Your Name" throughout the file
-- **Title/Role**: Update the hero subtitle and roles
+- **Title/Role**: Update the hero subtitle for cybersecurity (e.g., "Cybersecurity | Threat Detection | Secure Engineering")
 - **Location**: Update location information in About and Contact sections
 - **Email**: Replace `your.email@example.com` with your actual email
 - **Phone**: Update phone number in the contact section
@@ -54,18 +54,25 @@ Edit the following in `index.html`:
 
 Update the about text in the About section to reflect your background, experience, and interests.
 
-### 3. Projects
+### 3. Security Projects
 
 For each project in the Projects section, update:
 - Project name and description
-- Technologies used (tags)
+- Technologies used (security tooling/tags)
 - GitHub repository link
 - Live demo link
 - Project image (add screenshot to `assets/` folder)
 
-### 4. Skills
+### 4. Security Skills
 
-Modify the skills in the Skills section to match your expertise. Add or remove skill categories and items as needed.
+Modify the skills to highlight cybersecurity domains and tools. Suggested categories:
+
+- Detection Engineering: Sigma, KQL, Elastic DSL, YARA, Suricata
+- Threat Hunting: Sysmon, Windows Event Logs, EDR Telemetry, PCAP, Beaconing
+- Application Security: OWASP ASVS, SAST/DAST, Threat Modeling, Secure SDLC, Secrets Mgmt
+- Platform & Infra: Azure/M365, Defender/XDR, Elastic SIEM, Splunk, Docker/Kubernetes
+- Tools & Frameworks: MITRE ATT&CK, Atomic Red Team, NIST CSF, Terraform (IaC)
+- Core Concepts: Zero Trust, Defense in Depth, Incident Response, Kill Chain, Purple Teaming
 
 ### 5. Images
 
@@ -169,7 +176,7 @@ The contact form currently shows a success message but doesn't send emails. To m
 3. Update `script.js` with EmailJS code
 
 ### Option 3: Backend Service
-Create your own backend API to handle form submissions.
+Create your own backend API to handle form submissions. If collecting sensitive information, ensure TLS, input validation, rate limiting, and secure storage.
 
 ## 🎨 Optional Enhancements
 
@@ -194,14 +201,14 @@ This is a personal portfolio template. Feel free to fork and customize for your 
 
 Free to use for personal projects. Attribution appreciated but not required.
 
-## 💡 Tips
+## 💡 Tips (Security)
 
 1. **Keep it updated**: Regularly add new projects and update skills
-2. **Optimize images**: Compress images before uploading for faster loading
-3. **Test responsiveness**: Check on different devices and screen sizes
-4. **SEO**: Update meta descriptions and add keywords
-5. **Analytics**: Consider adding Google Analytics to track visitors
-6. **Custom Domain**: You can use a custom domain with GitHub Pages
+2. **Minimize attack surface**: Avoid unnecessary JS libraries; keep dependencies current
+3. **Content security**: Consider CSP headers if using a custom domain/proxy
+4. **SEO**: Update meta descriptions and add security keywords
+5. **Analytics**: If adding analytics, avoid PII and respect privacy
+6. **Custom Domain**: Use HTTPS via GitHub Pages; enable HSTS on custom domains
 
 ## 🐛 Troubleshooting
 

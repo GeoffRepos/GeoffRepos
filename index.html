@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional Portfolio - Software Developer">
-    <title>Your Name - Portfolio</title>
+    <meta name="description" content="Cybersecurity Portfolio - Geoff Lancashire">
+    <title>Geoff Lancashire - Cybersecurity Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -13,7 +13,7 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="#home">Your Name</a>
+                <a href="#home">Geoff Lancashire</a>
             </div>
             <button class="nav-toggle" id="navToggle">
                 <span></span>
@@ -33,11 +33,11 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
-            <p class="hero-subtitle">Software Developer | Problem Solver | Tech Enthusiast</p>
-            <p class="hero-description">I create elegant solutions to complex problems</p>
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Geoff Lancashire</span></h1>
+            <p class="hero-subtitle">Cybersecurity | Threat Detection | Secure Engineering</p>
+            <p class="hero-description">I secure systems, hunt threats, and build resilient defenses.</p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#projects" class="btn btn-primary">View Security Work</a>
                 <a href="#contact" class="btn btn-secondary">Get In Touch</a>
             </div>
             <div class="social-links">
@@ -106,8 +106,8 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <p class="section-description">Here are some of my recent works</p>
+            <h2 class="section-title">Security Projects</h2>
+            <p class="section-description">Selected work in threat detection, purple teaming, and secure tooling</p>
             
             <div class="projects-grid">
                 <!-- Project 1 -->
@@ -124,12 +124,13 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>Project Name 1</h3>
-                        <p>A full-stack web application built with React and Node.js. Features include user authentication, real-time updates, and responsive design.</p>
+                        <h3>SIEM Detection Engineering Toolkit</h3>
+                        <p>Rule authoring and test harness for Sigma/KQL to validate detections against simulated log data. Includes enrichment, false-positive tuning, and coverage reporting.</p>
                         <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB</span>
+                            <span class="tag">Sigma</span>
+                            <span class="tag">KQL</span>
+                            <span class="tag">Elastic</span>
+                            <span class="tag">Python</span>
                         </div>
                     </div>
                 </div>
@@ -148,12 +149,13 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>Project Name 2</h3>
-                        <p>A machine learning application that predicts outcomes using advanced algorithms. Includes data visualization and interactive dashboards.</p>
+                        <h3>Threat Hunt Notebook Pack</h3>
+                        <p>Repeatable Jupyter workflows for Windows event logs, Sysmon, and network telemetry to uncover living-off-the-land techniques and beaconing patterns.</p>
                         <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">TensorFlow</span>
-                            <span class="tag">Flask</span>
+                            <span class="tag">Jupyter</span>
+                            <span class="tag">Sysmon</span>
+                            <span class="tag">Windows Logs</span>
+                            <span class="tag">Pandas</span>
                         </div>
                     </div>
                 </div>
@@ -172,12 +174,12 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>Project Name 3</h3>
-                        <p>A mobile-responsive e-commerce platform with payment integration, shopping cart functionality, and admin dashboard.</p>
+                        <h3>Red/Blue Lab: ATT&CK Emulation</h3>
+                        <p>Hands-on lab to emulate adversary TTPs via Caldera/Atomic Red Team and validate detections across SIEM + EDR. Includes reporting mapped to MITRE ATT&CK.</p>
                         <div class="project-tags">
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">Express</span>
-                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MITRE ATT&CK</span>
+                            <span class="tag">Atomic Red Team</span>
+                            <span class="tag">EDR</span>
                         </div>
                     </div>
                 </div>
@@ -196,12 +198,12 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h3>Project Name 4</h3>
-                        <p>An open-source developer tool that improves workflow efficiency. Used by hundreds of developers worldwide.</p>
+                        <h3>Secure Coding Toolkit</h3>
+                        <p>Static analysis and CI checks that enforce OWASP ASVS, secret scanning, and dependency risk scoring with SBOM generation.</p>
                         <div class="project-tags">
-                            <span class="tag">TypeScript</span>
-                            <span class="tag">Electron</span>
-                            <span class="tag">REST API</span>
+                            <span class="tag">OWASP</span>
+                            <span class="tag">SAST</span>
+                            <span class="tag">SBOM</span>
                         </div>
                     </div>
                 </div>
@@ -212,78 +214,73 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <p class="section-description">Technologies I work with</p>
+            <h2 class="section-title">Security Skills & Tools</h2>
+            <p class="section-description">Domains, tooling, and frameworks I use to defend systems</p>
             
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <h3><i class="fas fa-shield-alt"></i> Detection Engineering</h3>
                     <div class="skill-items">
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">TypeScript</span>
-                        <span class="skill-item">Java</span>
-                        <span class="skill-item">C++</span>
-                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">Sigma</span>
+                        <span class="skill-item">KQL</span>
+                        <span class="skill-item">Elastic Query DSL</span>
+                        <span class="skill-item">YARA</span>
+                        <span class="skill-item">Suricata Rules</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <h3><i class="fas fa-search"></i> Threat Hunting</h3>
                     <div class="skill-items">
-                        <span class="skill-item">React</span>
-                        <span class="skill-item">Vue.js</span>
-                        <span class="skill-item">HTML5/CSS3</span>
-                        <span class="skill-item">Sass/SCSS</span>
-                        <span class="skill-item">Tailwind CSS</span>
-                        <span class="skill-item">Bootstrap</span>
+                        <span class="skill-item">Sysmon</span>
+                        <span class="skill-item">Windows Event Logs</span>
+                        <span class="skill-item">EDR Telemetry</span>
+                        <span class="skill-item">PCAP Analysis</span>
+                        <span class="skill-item">DNS/HTTP Beaconing</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <h3><i class="fas fa-lock"></i> Application Security</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Node.js</span>
-                        <span class="skill-item">Express</span>
-                        <span class="skill-item">Django</span>
-                        <span class="skill-item">Flask</span>
-                        <span class="skill-item">RESTful APIs</span>
-                        <span class="skill-item">GraphQL</span>
+                        <span class="skill-item">OWASP ASVS</span>
+                        <span class="skill-item">Threat Modeling</span>
+                        <span class="skill-item">SAST/DAST</span>
+                        <span class="skill-item">Secure SDLC</span>
+                        <span class="skill-item">Secrets Management</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <h3><i class="fas fa-network-wired"></i> Platform & Infra</h3>
                     <div class="skill-items">
-                        <span class="skill-item">MongoDB</span>
-                        <span class="skill-item">PostgreSQL</span>
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">Redis</span>
-                        <span class="skill-item">Firebase</span>
+                        <span class="skill-item">Azure/M365</span>
+                        <span class="skill-item">Defender/XDR</span>
+                        <span class="skill-item">Elastic SIEM</span>
+                        <span class="skill-item">Splunk</span>
+                        <span class="skill-item">Docker/Kubernetes</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">AWS</span>
-                        <span class="skill-item">Linux</span>
-                        <span class="skill-item">CI/CD</span>
-                        <span class="skill-item">Agile</span>
+                        <span class="skill-item">MITRE ATT&CK</span>
+                        <span class="skill-item">Atomic Red Team</span>
+                        <span class="skill-item">MDE/MDA</span>
+                        <span class="skill-item">NIST CSF</span>
+                        <span class="skill-item">Terraform (IaC)</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> Concepts</h3>
+                    <h3><i class="fas fa-brain"></i> Core Concepts</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Data Structures</span>
-                        <span class="skill-item">Algorithms</span>
-                        <span class="skill-item">OOP</span>
-                        <span class="skill-item">Design Patterns</span>
-                        <span class="skill-item">Testing</span>
-                        <span class="skill-item">Clean Code</span>
+                        <span class="skill-item">Zero Trust</span>
+                        <span class="skill-item">Defense in Depth</span>
+                        <span class="skill-item">Incident Response</span>
+                        <span class="skill-item">Kill Chain</span>
+                        <span class="skill-item">Purple Teaming</span>
                     </div>
                 </div>
             </div>
@@ -346,7 +343,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Your Name. All rights reserved.</p>
+                <p>&copy; 2025 Geoff Lancashire. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
