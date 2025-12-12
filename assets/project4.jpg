@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#10b981"/>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="64" fill="white" text-anchor="middle">Project 4</text>
+  <text x="400" y="340" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" opacity="0.8">Replace with screenshot</text>
+</svg>
