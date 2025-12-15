@@ -281,12 +281,14 @@ function createScrollToTopButton() {
 // createScrollToTopButton();
 
 // ============================================
-// Dynamic Year in Footer
+// Dynamic Year in Footer (preserve custom text)
 // ============================================
-const footerYear = document.querySelector('.footer p');
-if (footerYear) {
+const footerParagraph = document.querySelector('.footer p');
+if (footerParagraph) {
     const currentYear = new Date().getFullYear();
-    footerYear.textContent = `© ${currentYear} Your Name. All rights reserved.`;
+    // Replace only the year after the © symbol, keep the rest untouched
+    const replaced = footerParagraph.innerHTML.replace(/©\s*\d{4}/, `© ${currentYear}`);
+    footerParagraph.innerHTML = replaced;
 }
 
 // ============================================
