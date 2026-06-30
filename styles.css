@@ -1,20 +1,35 @@
 /* ============================================
    CSS Custom Properties (Variables)
    ============================================ */
+
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #3b82f6;
-    --text-color: #1f2937;
-    --text-light: #6b7280;
-    --background: #ffffff;
-    --background-secondary: #f9fafb;
-    --background-dark: #111827;
-    --border-color: #e5e7eb;
-    --success-color: #10b981;
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* === PRIMARY COLOUR SYSTEM === */
+    --primary-color: #1F6FEB;        /* Cyber blue (main buttons, links) */
+    --secondary-color: #58A6FF;      /* Lighter blue (hover, accents) */
+    --accent-color: #00D4FF;         /* Subtle neon accent (icons, highlights only) */
+
+    /* === TEXT === */
+    --text-color: #E6EDF3;           /* Main text */
+    --text-light: #8B949E;           /* Secondary text */
+
+    /* === BACKGROUNDS === */
+    --background: #0D1117;           /* Main background (deep navy) */
+    --background-secondary: #161B22; /* Cards / sections */
+    --background-dark: #010409;      /* Very dark sections (footer/nav if needed) */
+
+    /* === UI ELEMENTS === */
+    --border-color: #30363D;         /* Subtle borders */
+    
+    /* === STATUS COLOURS === */
+    --success-color: #2EA043;        /* Success (green) */
+    --error-color: #F85149;          /* Error (red) */
+
+    /* === EFFECTS === */
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.6), 0 2px 4px -1px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.7), 0 4px 6px -2px rgba(0, 0, 0, 0.6);
     --transition: all 0.3s ease;
+}
+
 }
 
 /* ============================================
@@ -31,6 +46,7 @@ html {
 }
 
 body {
+    background-color: var(--background);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-color);
     line-height: 1.6;
@@ -198,15 +214,16 @@ section {
     transition: var(--transition);
 }
 
+
 .btn-primary {
-    background: white;
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
+    background-color: var(--secondary-color);
 }
+
 
 .btn-secondary {
     background: transparent;
@@ -430,7 +447,7 @@ section {
 
 .tag {
     background: var(--background-secondary);
-    color: var(--primary-color);
+    color: var(--text-color);
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.85rem;
